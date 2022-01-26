@@ -1,5 +1,5 @@
 ---
-title: "index_talk"
+title: "Assignment 1: R Markdown Examples - Presentation Format"
 author: "Keian Freshwater"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
@@ -14,7 +14,7 @@ output:
     reveal_options:
       slideNumber: true
       previewLinks: true
-      margin: 0.00
+      margin: 0.05
       width: 1536
       height: 864
 editor_options: 
