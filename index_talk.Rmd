@@ -1,16 +1,25 @@
 ---
-title: "Assignment 1: R Markdown Examples"
+title: "index_talk"
 author: "Keian Freshwater"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    toc_depth: 3
+output: 
+  revealjs::revealjs_presentation:
+    self_contained: false
+    center: true
+    incremental: true
+    theme: night
+    transition: slide
+    css: style.css
+    reveal_plugins: ["chalkboard"]
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
+      margin: 0.00
+      width: 1536
+      height: 864
 editor_options: 
   chunk_output_type: console
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
