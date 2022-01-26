@@ -41,9 +41,6 @@ The Poudre River at Lincoln Bridge is:
 
 ## Data Acquisition and Plotting tests
 
-## Data Download
-
-
 ```{r downloader}
 
 q <- readNWISdv(siteNumbers = '06752260',
